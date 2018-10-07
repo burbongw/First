@@ -57,5 +57,53 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="olap\" />
+    <Folder Include="olap\Views\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\FactStrategyPlan.sql" />
+    <Build Include="dbo\Tables\FactSalesQuota.sql" />
+    <Build Include="dbo\Tables\FactSales.sql" />
+    <Build Include="dbo\Tables\FactOnlineSales.sql" />
+    <Build Include="dbo\Tables\FactITSLA.sql" />
+    <Build Include="dbo\Tables\FactITMachine.sql" />
+    <Build Include="dbo\Tables\FactInventory.sql" />
+    <Build Include="dbo\Tables\FactExchangeRate.sql" />
+    <Build Include="dbo\Tables\DimStore.sql" />
+    <Build Include="dbo\Tables\DimScenario.sql" />
+    <Build Include="dbo\Tables\DimSalesTerritory.sql" />
+    <Build Include="dbo\Tables\DimPromotion.sql" />
+    <Build Include="dbo\Tables\DimProductSubcategory.sql" />
+    <Build Include="dbo\Tables\DimProductCategory.sql" />
+    <Build Include="dbo\Tables\DimProduct.sql" />
+    <Build Include="dbo\Tables\DimOutage.sql" />
+    <Build Include="dbo\Tables\DimMachine.sql" />
+    <Build Include="dbo\Tables\DimGeography.sql" />
+    <Build Include="dbo\Tables\DimEntity.sql" />
+    <Build Include="dbo\Tables\DimEmployee.sql" />
+    <Build Include="dbo\Tables\DimDate.sql" />
+    <Build Include="dbo\Tables\DimCustomer.sql" />
+    <Build Include="dbo\Tables\DimCurrency.sql" />
+    <Build Include="dbo\Tables\DimChannel.sql" />
+    <Build Include="dbo\Tables\DimAccount.sql" />
+    <Build Include="dbo\Views\V_ProductForecast.sql" />
+    <Build Include="dbo\Views\V_OnlineSalesOrderDetail.sql" />
+    <Build Include="dbo\Views\V_OnlineSalesOrder.sql" />
+    <Build Include="dbo\Views\V_CustomerPromotion.sql" />
+    <Build Include="dbo\Views\V_CustomerOrders.sql" />
+    <Build Include="dbo\Views\V_Customer.sql" />
+    <Build Include="olap\Views\vDimOutage.sql" />
+    <Build Include="olap\Views\vDimMachine.sql" />
+    <Build Include="olap\Views\vDimStore.sql" />
+    <Build Include="olap\Views\vDimDate.sql" />
+    <Build Include="olap\Views\vFactITSLA.sql" />
+    <Build Include="dbo\Stored Procedures\P_FactStrategyPlan.sql" />
+    <Build Include="dbo\Stored Procedures\P_FactSalesQuota.sql" />
+    <Build Include="Security\olap.sql" />
   </ItemGroup>
 </Project>

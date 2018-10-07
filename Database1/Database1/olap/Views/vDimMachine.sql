@@ -1,0 +1,15 @@
+﻿
+		CREATE VIEW [olap].[vDimMachine]
+		AS	
+		SELECT [MachineKey]
+            ,  [MachineLabel]
+            ,  [MachineType]
+            ,  [MachineName]
+            ,  [MachineDescription]
+            ,  [VendorName]
+            ,  [MachineOS]
+            ,  [MachineSource]
+            ,  [MachineHardware]
+            ,  [MachineSoftware]
+            ,  [Status]
+		FROM [dbo].[DimMachine]
