@@ -203,6 +203,12 @@
     <Dimension dwd:design-time-name="f0e364f8-6124-4b00-a54f-c63ab29838d7">
       <ID>v Dim Outage</ID>
       <Name>v Dim Outage</Name>
+      <Translations>
+        <Translation dwd:design-time-name="45517d96-99af-4e35-92bb-cbed007aa21c">
+          <Language>1045</Language>
+          <Caption>Przestoj</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>v Dim Outage</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="893d9035-ba3a-4e8d-8e42-1c92ff6dd787">
@@ -228,6 +234,12 @@
     <Dimension dwd:design-time-name="2c3c2f36-0d38-4592-b4f4-5942ba75f014">
       <ID>v Dim Store</ID>
       <Name>v Dim Store</Name>
+      <Translations>
+        <Translation dwd:design-time-name="9925959b-2d1a-4c1b-b27f-ab66e1917723">
+          <Language>1045</Language>
+          <Caption>Sklep</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>v Dim Store</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="0fb337b4-d75f-4be2-8297-bfdfbc054c30">
@@ -247,6 +259,12 @@
     <Dimension dwd:design-time-name="de6ff8d3-b0a4-4762-a9f9-0cf5edd33b6f">
       <ID>v Dim Date</ID>
       <Name>v Dim Date</Name>
+      <Translations>
+        <Translation dwd:design-time-name="5d8816d2-e88d-4c10-bc59-22aa70835f66">
+          <Language>1045</Language>
+          <Caption>Data</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>v Dim Date</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="ac64277c-d2b2-49b0-9d97-b7e8f23f07a2">
@@ -274,6 +292,12 @@
     <Dimension dwd:design-time-name="98468c38-ddad-4bf1-bd02-96132db902be">
       <ID>DimMachine</ID>
       <Name>DimMachine</Name>
+      <Translations>
+        <Translation dwd:design-time-name="2f7a50e2-7a3a-4d42-bbfc-7ebc83b32017">
+          <Language>1045</Language>
+          <Caption>Stacja_robocza</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimMachine</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="9c136f52-65f4-4cb9-86b1-c2cb5dc39f96">
@@ -317,6 +341,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="b955599d-355b-46bf-9533-70c1455e4d4a">
+          <Language>1045</Language>
+          <Caption>Fakty</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="079ba12f-7fa2-42e8-b600-003b047c9fac">
           <ID>Down Time</ID>
@@ -328,6 +358,12 @@
               <ColumnID>DownTime</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="9169d1bf-ab66-41d9-94bc-ab04b2e09427">
+              <Language>1045</Language>
+              <Caption>Przestoj</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="b621afca-e375-42ac-9eab-b67d1633dbe7">
           <ID>v Fact ITSLA Count</ID>
@@ -340,6 +376,12 @@
               <TableID>olap_vFactITSLA</TableID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="791f8bc9-89ec-4e65-8f8a-49f68f26403c">
+              <Language>1045</Language>
+              <Caption>LiczbaWierszy</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="1e9611fd-36da-4afd-bb96-23d67de381a8">
           <ID>Down Time Hrs</ID>
@@ -352,6 +394,12 @@
             </Source>
           </Source>
           <FormatString>#,##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="a69a72e7-4e2f-4db7-ac31-e6b2f683145a">
+              <Language>1045</Language>
+              <Caption>Przestoj (h)</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>

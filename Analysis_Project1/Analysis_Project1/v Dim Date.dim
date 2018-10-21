@@ -288,26 +288,56 @@
     <Hierarchy dwd:design-time-name="6ae190fc-776c-419f-9963-09f55dd35cc6">
       <ID>Hierarchy</ID>
       <Name>YTHOM</Name>
+      <Translations>
+        <Translation dwd:design-time-name="b9831338-9426-4040-b3cd-1ecb7c3d9a9c">
+          <Language>1045</Language>
+          <Caption>Rok_Polrocze_Kwartal_Miesiac</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="d080ad43-c1ff-434e-8569-de4f6606f634">
           <ID>Calendar Year</ID>
           <Name>Calendar Year</Name>
           <SourceAttributeID>Calendar Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="28500b82-184c-4c24-83de-b6231a7ce1c0">
+              <Language>1045</Language>
+              <Caption>Rok</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="23204d41-adb7-438c-8c15-305b920dbdf5">
           <ID>Calendar Half Year</ID>
           <Name>Calendar Half Year</Name>
           <SourceAttributeID>Calendar Half Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="270a193a-58d2-4331-b325-b6b494baf877">
+              <Language>1045</Language>
+              <Caption>Polrocze</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="f7de26ac-314a-4cbf-86c4-ddb1cfbef00a">
           <ID>Calendar Quarter</ID>
           <Name>Calendar Quarter</Name>
           <SourceAttributeID>Calendar Quarter</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="aae787b2-20c8-4a3f-afad-a7d8d3924280">
+              <Language>1045</Language>
+              <Caption>Kwartal</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="70f32a21-43ca-46af-8451-77c7f2a8e3bc">
           <ID>Calendar Month</ID>
           <Name>Calendar Month</Name>
           <SourceAttributeID>Calendar Month</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="bdac8555-3848-4cc1-87fb-b594df00475b">
+              <Language>1045</Language>
+              <Caption>Miesiac</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>
