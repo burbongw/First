@@ -6,6 +6,18 @@
     <Name>Analysis_Project1.database</Name>
     <FullPath>Analysis_Project1.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>ContosoCube.cube</Name>
+      <FullPath>ContosoCube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ContosoCube.partitions</Name>
+          <FullPath>ContosoCube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DimMachine.dim</Name>
