@@ -56,7 +56,7 @@
           <ConfigurationSetting>
             <Id>Contoso Retail DW</Id>
             <Name>Contoso Retail DW</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=PK2-4;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-0NUGCCL;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
