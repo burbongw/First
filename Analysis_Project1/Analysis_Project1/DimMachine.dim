@@ -65,6 +65,75 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="665" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="150">
+            <Shape Id="Machine Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Machine Key" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Machine Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine Name" />
+              </Attributes>
+              <Position x="212" y="20" />
+            </Shape>
+            <Shape Id="Machine Description" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine Description" />
+              </Attributes>
+              <Position x="405" y="20" />
+            </Shape>
+            <Shape Id="Status" Expanded="false">
+              <Attributes>
+                <Attribute Id="Status" />
+              </Attributes>
+              <Position x="597" y="20" />
+            </Shape>
+            <Shape Id="Machine Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine Type" />
+              </Attributes>
+              <Position x="790" y="20" />
+            </Shape>
+            <Shape Id="Machine Source" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine Source" />
+              </Attributes>
+              <Position x="982" y="20" />
+            </Shape>
+            <Shape Id="Machine OS" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine OS" />
+              </Attributes>
+              <Position x="1175" y="20" />
+            </Shape>
+            <Shape Id="Machine Software" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine Software" />
+              </Attributes>
+              <Position x="1367" y="20" />
+            </Shape>
+            <Shape Id="Machine Hardware" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine Hardware" />
+              </Attributes>
+              <Position x="1560" y="20" />
+            </Shape>
+            <Shape Id="Vendor Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Vendor Name" />
+              </Attributes>
+              <Position x="1752" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -112,41 +181,9 @@
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="ce6ee0c5-125a-4840-9c6f-dab619c4ede7">
-          <AttributeID>Machine Type</AttributeID>
-          <Name>Machine Type</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a1c6df38-4306-4f41-b939-2d340cbe6d5d">
+        <AttributeRelationship dwd:design-time-name="ba947040-3980-4227-afed-cb10a10746a3">
           <AttributeID>Machine Name</AttributeID>
           <Name>Machine Name</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c0bc442b-ed45-4fba-83f4-eff8eff62fbe">
-          <AttributeID>Machine Description</AttributeID>
-          <Name>Machine Description</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="fe9b4431-96d9-4fec-89f9-be400186a218">
-          <AttributeID>Vendor Name</AttributeID>
-          <Name>Vendor Name</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2c1ae923-9ab1-4be4-83eb-a6b882393436">
-          <AttributeID>Machine OS</AttributeID>
-          <Name>Machine OS</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1abd90ed-f5b8-45ce-b640-88cc325a010b">
-          <AttributeID>Machine Source</AttributeID>
-          <Name>Machine Source</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="58cd3223-c8e6-44e7-beff-7449cc104f27">
-          <AttributeID>Machine Hardware</AttributeID>
-          <Name>Machine Hardware</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="23a6fdac-8f3d-4203-83cb-3b8166a4e937">
-          <AttributeID>Machine Software</AttributeID>
-          <Name>Machine Software</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b0e7a9b8-1dbe-4dcf-95ee-bfe2b5c659a8">
-          <AttributeID>Status</AttributeID>
-          <Name>Status</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -179,6 +216,12 @@
           <Caption>Typ_stacji_roboczej</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9b432644-8ab1-44d9-9a5f-fa04026c8b7e">
+          <AttributeID>Machine Source</AttributeID>
+          <Name>Machine Source</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -202,6 +245,12 @@
           <Caption>Nazwa_stacji_roboczej</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="dab291a5-24ab-4ce6-9ed2-db5716e9a383">
+          <AttributeID>Machine Description</AttributeID>
+          <Name>Machine Description</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -225,6 +274,12 @@
           <Caption>Opis_stacji_roboczej</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bac33b99-7bc7-4d93-b0f5-e390b34c9124">
+          <AttributeID>Status</AttributeID>
+          <Name>Status</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -271,6 +326,12 @@
           <Caption>System_operacyjny</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7788edcb-f136-4a92-900d-bf40853fe1d9">
+          <AttributeID>Machine Software</AttributeID>
+          <Name>Machine Software</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -294,6 +355,12 @@
           <Caption>Pochodzenie_stacji_roboczej</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="55b83e10-0ec3-4ffe-b8dd-c91596d2ddea">
+          <AttributeID>Machine OS</AttributeID>
+          <Name>Machine OS</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -317,6 +384,12 @@
           <Caption>Hardware</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0973db56-abb1-420f-9dac-aaee8b27bb73">
+          <AttributeID>Vendor Name</AttributeID>
+          <Name>Vendor Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -339,6 +412,12 @@
           <Caption>Software</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="335c5cde-3098-46ef-a977-df9e2c14f6b3">
+          <AttributeID>Machine Hardware</AttributeID>
+          <Name>Machine Hardware</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -361,9 +440,133 @@
           <Caption>Status</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ce2de9de-fa9b-4cbe-b47b-ce8704e6bd8c">
+          <AttributeID>Machine Type</AttributeID>
+          <Name>Machine Type</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="9eaa6455-bf79-4705-9a2d-fa3c1e111440">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="42a30a35-639c-46c1-9644-fb21be9dedff">
+          <ID>Machine Key</ID>
+          <Name>Machine Key</Name>
+          <SourceAttributeID>Machine Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="322a9bf4-d807-45c2-bca6-8e802eafabbf">
+              <Language>1045</Language>
+              <Caption>Klucz_stacji_roboczej</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="f116cccc-a528-4957-9945-52d9f8040132">
+          <ID>Machine Name</ID>
+          <Name>Machine Name</Name>
+          <SourceAttributeID>Machine Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="b0b53a00-15b6-431a-899a-6c48fa39cf53">
+              <Language>1045</Language>
+              <Caption>Nazwa</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="0865c72d-7866-4ff8-ae61-47d408fb3e75">
+          <ID>Machine Description</ID>
+          <Name>Machine Description</Name>
+          <SourceAttributeID>Machine Description</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="905b3c8e-ef90-4319-873a-ec26d58868cf">
+              <Language>1045</Language>
+              <Caption>Opis</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="b0a10844-fd61-4b75-8cd4-773f060176be">
+          <ID>Status</ID>
+          <Name>Status</Name>
+          <SourceAttributeID>Status</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="0c0aa07a-974d-431a-90d7-a1894b050ca4">
+              <Language>1045</Language>
+              <Caption>Status</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="2eaa5d2e-a9f3-49cd-ba85-a453f54663b8">
+          <ID>Machine Type</ID>
+          <Name>Machine Type</Name>
+          <SourceAttributeID>Machine Type</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="e58dc3e9-6274-438d-b0cb-8f5ba9473335">
+              <Language>1045</Language>
+              <Caption>Typ</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="3b75e361-43fd-4ff5-910f-edb920b0a1e3">
+          <ID>Machine Source</ID>
+          <Name>Machine Source</Name>
+          <SourceAttributeID>Machine Source</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="1112dd9d-487f-437c-bf54-d9044d914463">
+              <Language>1045</Language>
+              <Caption>Pochodzenie</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="74471be8-8fcc-4902-958b-9639265ed200">
+          <ID>Machine OS</ID>
+          <Name>Machine OS</Name>
+          <SourceAttributeID>Machine OS</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="58580937-41f2-4dc4-b265-b95e7452bb0c">
+              <Language>1045</Language>
+              <Caption>OS</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="303906f9-f85c-4314-8a72-34f75d6a358b">
+          <ID>Machine Software</ID>
+          <Name>Machine Software</Name>
+          <SourceAttributeID>Machine Software</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="800b36d8-2a38-4c91-b769-19a33d1fa1b0">
+              <Language>1045</Language>
+              <Caption>Oprogramowanie</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="82d82601-ce00-4824-984f-b41686fcde0a">
+          <ID>Machine Hardware</ID>
+          <Name>Machine Hardware</Name>
+          <SourceAttributeID>Machine Hardware</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="03b7b805-4bdd-456e-8f0f-11e21e942eba">
+              <Language>1045</Language>
+              <Caption>Podzespoły</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="51732f7e-55c2-4464-8b27-326c13ec1004">
+          <ID>Vendor Name</ID>
+          <Name>Vendor Name</Name>
+          <SourceAttributeID>Vendor Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="71e5c140-6368-4b50-aa44-a4199914139e">
+              <Language>1045</Language>
+              <Caption>Sprzedawca</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

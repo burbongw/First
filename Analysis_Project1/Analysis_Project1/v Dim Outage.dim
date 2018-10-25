@@ -74,12 +74,32 @@
               <Attributes>
                 <Attribute Id="Outage Key" />
                 <Attribute Id="Outage Description" />
-                <Attribute Id="Outage Sub Type" />
-                <Attribute Id="Outage Sub Type Description" />
-                <Attribute Id="Outage Type" />
-                <Attribute Id="Outage Type Description" />
               </Attributes>
               <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Outage Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Outage Type" />
+              </Attributes>
+              <Position x="268" y="20" />
+            </Shape>
+            <Shape Id="Outage Type Description" Expanded="false">
+              <Attributes>
+                <Attribute Id="Outage Type Description" />
+              </Attributes>
+              <Position x="517" y="20" />
+            </Shape>
+            <Shape Id="Outage Sub Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Outage Sub Type" />
+              </Attributes>
+              <Position x="766" y="20" />
+            </Shape>
+            <Shape Id="Outage Sub Type Description" Expanded="false">
+              <Attributes>
+                <Attribute Id="Outage Sub Type Description" />
+              </Attributes>
+              <Position x="1015" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -140,18 +160,6 @@
           <AttributeID>Outage Type</AttributeID>
           <Name>Outage Type</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="732717d5-1e1e-4790-a183-0278e8615f31">
-          <AttributeID>Outage Type Description</AttributeID>
-          <Name>Outage Type Description</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e8b0749b-338d-4760-a406-46168ec3fda3">
-          <AttributeID>Outage Sub Type</AttributeID>
-          <Name>Outage Sub Type</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5bf39200-8424-4fb5-ad56-a32e28016751">
-          <AttributeID>Outage Sub Type Description</AttributeID>
-          <Name>Outage Sub Type Description</Name>
-        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ValueColumn dwd:design-time-name="5132c672-fcaf-427e-a937-555c28ae9e2d">
@@ -206,6 +214,12 @@
           <Caption>Typ_przestoju</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="12b95910-16ac-486b-b1ee-0a4307c45b3d">
+          <AttributeID>Outage Type Description</AttributeID>
+          <Name>Outage Type Description</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -229,6 +243,12 @@
           <Caption>Opis_typu_przestoju</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="626c7a36-436e-451a-bda3-9b4dae721046">
+          <AttributeID>Outage Sub Type</AttributeID>
+          <Name>Outage Sub Type</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -252,6 +272,12 @@
           <Caption>Podtyp_przestoju</Caption>
         </Translation>
       </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bfd0eb9e-6ead-40fc-8e5d-2a34ac08e026">
+          <AttributeID>Outage Sub Type Description</AttributeID>
+          <Name>Outage Sub Type Description</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -280,5 +306,68 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c3acc9bc-c400-4aad-bddf-1fb4dc5dad76">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="41e48391-1188-40ba-880f-bad8c8eaf990">
+          <ID>Outage Key</ID>
+          <Name>Outage Key</Name>
+          <SourceAttributeID>Outage Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="bda9bb55-07a0-46b2-abe3-38103888ef1f">
+              <Language>1045</Language>
+              <Caption>Klucz_przestoju</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="d543603b-6797-4f2e-b6a1-cba279a13b1c">
+          <ID>Outage Type</ID>
+          <Name>Outage Type</Name>
+          <SourceAttributeID>Outage Type</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="4cee21db-a8b0-4acb-9e82-f9cfbc31c053">
+              <Language>1045</Language>
+              <Caption>Typ_przestoju</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="64dd97f3-dafd-42fa-a5d1-50f0a15bd381">
+          <ID>Outage Type Description</ID>
+          <Name>Outage Type Description</Name>
+          <SourceAttributeID>Outage Type Description</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="182e2b01-7cd0-4e96-a563-3d5e8de0f44e">
+              <Language>1045</Language>
+              <Caption>Opis_typu_przestoju</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="31e83f37-4c8f-4d81-8ac7-259053bb3c67">
+          <ID>Outage Sub Type</ID>
+          <Name>Outage Sub Type</Name>
+          <SourceAttributeID>Outage Sub Type</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="cd463203-7957-4758-b01b-88093c19699d">
+              <Language>1045</Language>
+              <Caption>Podtyp_przestoju</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="c69eb640-ba5f-4f48-8351-e35fbc059272">
+          <ID>Outage Sub Type Description</ID>
+          <Name>Outage Sub Type Description</Name>
+          <SourceAttributeID>Outage Sub Type Description</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="4bd7d23c-00af-48f8-9554-adff14c3343e">
+              <Language>1045</Language>
+              <Caption>Opis_podtypu_przestoju</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
