@@ -77,29 +77,19 @@
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
-            <Shape Id="Outage Type" Expanded="false">
+            <Shape Id="Outage Type" Expanded="true">
               <Attributes>
                 <Attribute Id="Outage Type" />
+                <Attribute Id="Outage Type Description" />
               </Attributes>
               <Position x="268" y="20" />
             </Shape>
-            <Shape Id="Outage Type Description" Expanded="false">
-              <Attributes>
-                <Attribute Id="Outage Type Description" />
-              </Attributes>
-              <Position x="517" y="20" />
-            </Shape>
-            <Shape Id="Outage Sub Type" Expanded="false">
+            <Shape Id="Outage Sub Type" Expanded="true">
               <Attributes>
                 <Attribute Id="Outage Sub Type" />
-              </Attributes>
-              <Position x="766" y="20" />
-            </Shape>
-            <Shape Id="Outage Sub Type Description" Expanded="false">
-              <Attributes>
                 <Attribute Id="Outage Sub Type Description" />
               </Attributes>
-              <Position x="1015" y="20" />
+              <Position x="517" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -111,11 +101,6 @@
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="11ef7386-c042-4569-a58d-00db4ab1c548">
     <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="b85bd689-6830-4eaf-b744-b6879780abd2">
-    <KeyNotFound>ReportAndStop</KeyNotFound>
-    <KeyDuplicate>ReportAndStop</KeyDuplicate>
-    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-  </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
     <Translation dwd:design-time-name="5bece672-9ef5-4574-923a-76f4c82a08bd">
@@ -152,13 +137,13 @@
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="7d8de2c6-7a2a-4ae4-9113-b56b4f15d5b7">
-          <AttributeID>Outage Description</AttributeID>
-          <Name>Outage Description</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="30390f18-8028-41e5-bf67-3c65696a16dd">
+        <AttributeRelationship dwd:design-time-name="2d0ee927-3e22-436e-9b96-3b265db7298b">
           <AttributeID>Outage Type</AttributeID>
           <Name>Outage Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7328bc4f-a01a-4453-8f11-58eb74d3ed4b">
+          <AttributeID>Outage Description</AttributeID>
+          <Name>Outage Description</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -215,9 +200,13 @@
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="12b95910-16ac-486b-b1ee-0a4307c45b3d">
+        <AttributeRelationship dwd:design-time-name="9028d499-e2f6-4816-9af2-1db88aae2326">
           <AttributeID>Outage Type Description</AttributeID>
           <Name>Outage Type Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="56217fef-0dbf-44e4-b1ba-372bfe376aee">
+          <AttributeID>Outage Sub Type</AttributeID>
+          <Name>Outage Sub Type</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -243,12 +232,6 @@
           <Caption>Opis_typu_przestoju</Caption>
         </Translation>
       </Translations>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="626c7a36-436e-451a-bda3-9b4dae721046">
-          <AttributeID>Outage Sub Type</AttributeID>
-          <Name>Outage Sub Type</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -273,7 +256,7 @@
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="bfd0eb9e-6ead-40fc-8e5d-2a34ac08e026">
+        <AttributeRelationship dwd:design-time-name="843ab068-3fca-4e15-911b-20ecc5737e0a">
           <AttributeID>Outage Sub Type Description</AttributeID>
           <Name>Outage Sub Type Description</Name>
         </AttributeRelationship>
@@ -318,7 +301,7 @@
           <Translations>
             <Translation dwd:design-time-name="bda9bb55-07a0-46b2-abe3-38103888ef1f">
               <Language>1045</Language>
-              <Caption>Klucz_przestoju</Caption>
+              <Caption>Key</Caption>
             </Translation>
           </Translations>
         </Level>
@@ -329,18 +312,7 @@
           <Translations>
             <Translation dwd:design-time-name="4cee21db-a8b0-4acb-9e82-f9cfbc31c053">
               <Language>1045</Language>
-              <Caption>Typ_przestoju</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="64dd97f3-dafd-42fa-a5d1-50f0a15bd381">
-          <ID>Outage Type Description</ID>
-          <Name>Outage Type Description</Name>
-          <SourceAttributeID>Outage Type Description</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="182e2b01-7cd0-4e96-a563-3d5e8de0f44e">
-              <Language>1045</Language>
-              <Caption>Opis_typu_przestoju</Caption>
+              <Caption>Type</Caption>
             </Translation>
           </Translations>
         </Level>
@@ -351,18 +323,7 @@
           <Translations>
             <Translation dwd:design-time-name="cd463203-7957-4758-b01b-88093c19699d">
               <Language>1045</Language>
-              <Caption>Podtyp_przestoju</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="c69eb640-ba5f-4f48-8351-e35fbc059272">
-          <ID>Outage Sub Type Description</ID>
-          <Name>Outage Sub Type Description</Name>
-          <SourceAttributeID>Outage Sub Type Description</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="4bd7d23c-00af-48f8-9554-adff14c3343e">
-              <Language>1045</Language>
-              <Caption>Opis_podtypu_przestoju</Caption>
+              <Caption>Sub_type</Caption>
             </Translation>
           </Translations>
         </Level>

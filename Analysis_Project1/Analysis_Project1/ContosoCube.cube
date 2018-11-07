@@ -499,4 +499,5 @@
   <Source dwd:design-time-name="b3db0ee9-6c35-42c7-b6a8-9ff3e1b1c2cd">
     <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
   </Source>
+  <ScriptErrorHandlingMode>IgnoreAll</ScriptErrorHandlingMode>
 </Cube>

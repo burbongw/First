@@ -68,7 +68,7 @@
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
       <Value>
-        <DiagramLayout ZoomPercent="100" ViewPortX="665" ViewPortY="0" xmlns="">
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
           <Shapes NodeWidth="150">
             <Shape Id="Machine Key" Expanded="true">
               <Attributes>
@@ -140,11 +140,6 @@
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2a6d1c41-c5ae-489e-bd90-0f9fe19cf0fd">
     <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="f03619a4-1e34-4382-b832-38ce50037d6c">
-    <KeyNotFound>ReportAndStop</KeyNotFound>
-    <KeyDuplicate>ReportAndStop</KeyDuplicate>
-    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-  </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
     <Translation dwd:design-time-name="d46a1685-52ef-4288-8603-9e93a6573277">
@@ -462,40 +457,7 @@
           <Translations>
             <Translation dwd:design-time-name="322a9bf4-d807-45c2-bca6-8e802eafabbf">
               <Language>1045</Language>
-              <Caption>Klucz_stacji_roboczej</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="f116cccc-a528-4957-9945-52d9f8040132">
-          <ID>Machine Name</ID>
-          <Name>Machine Name</Name>
-          <SourceAttributeID>Machine Name</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="b0b53a00-15b6-431a-899a-6c48fa39cf53">
-              <Language>1045</Language>
-              <Caption>Nazwa</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="0865c72d-7866-4ff8-ae61-47d408fb3e75">
-          <ID>Machine Description</ID>
-          <Name>Machine Description</Name>
-          <SourceAttributeID>Machine Description</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="905b3c8e-ef90-4319-873a-ec26d58868cf">
-              <Language>1045</Language>
-              <Caption>Opis</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="b0a10844-fd61-4b75-8cd4-773f060176be">
-          <ID>Status</ID>
-          <Name>Status</Name>
-          <SourceAttributeID>Status</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="0c0aa07a-974d-431a-90d7-a1894b050ca4">
-              <Language>1045</Language>
-              <Caption>Status</Caption>
+              <Caption>Key</Caption>
             </Translation>
           </Translations>
         </Level>
@@ -506,62 +468,7 @@
           <Translations>
             <Translation dwd:design-time-name="e58dc3e9-6274-438d-b0cb-8f5ba9473335">
               <Language>1045</Language>
-              <Caption>Typ</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="3b75e361-43fd-4ff5-910f-edb920b0a1e3">
-          <ID>Machine Source</ID>
-          <Name>Machine Source</Name>
-          <SourceAttributeID>Machine Source</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="1112dd9d-487f-437c-bf54-d9044d914463">
-              <Language>1045</Language>
-              <Caption>Pochodzenie</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="74471be8-8fcc-4902-958b-9639265ed200">
-          <ID>Machine OS</ID>
-          <Name>Machine OS</Name>
-          <SourceAttributeID>Machine OS</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="58580937-41f2-4dc4-b265-b95e7452bb0c">
-              <Language>1045</Language>
-              <Caption>OS</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="303906f9-f85c-4314-8a72-34f75d6a358b">
-          <ID>Machine Software</ID>
-          <Name>Machine Software</Name>
-          <SourceAttributeID>Machine Software</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="800b36d8-2a38-4c91-b769-19a33d1fa1b0">
-              <Language>1045</Language>
-              <Caption>Oprogramowanie</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="82d82601-ce00-4824-984f-b41686fcde0a">
-          <ID>Machine Hardware</ID>
-          <Name>Machine Hardware</Name>
-          <SourceAttributeID>Machine Hardware</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="03b7b805-4bdd-456e-8f0f-11e21e942eba">
-              <Language>1045</Language>
-              <Caption>Podzespoły</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="51732f7e-55c2-4464-8b27-326c13ec1004">
-          <ID>Vendor Name</ID>
-          <Name>Vendor Name</Name>
-          <SourceAttributeID>Vendor Name</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="71e5c140-6368-4b50-aa44-a4199914139e">
-              <Language>1045</Language>
-              <Caption>Sprzedawca</Caption>
+              <Caption>Type</Caption>
             </Translation>
           </Translations>
         </Level>

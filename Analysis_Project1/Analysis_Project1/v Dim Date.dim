@@ -110,11 +110,6 @@
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2e2522ad-77bd-4cfd-9a61-d4f06d06b237">
     <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="c3048d9f-8ebc-4e65-95ba-b97ae871b7ca">
-    <KeyNotFound>ReportAndStop</KeyNotFound>
-    <KeyDuplicate>ReportAndStop</KeyDuplicate>
-    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-  </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
     <Translation dwd:design-time-name="17dea64d-c299-4d04-94d9-f24796feec78">

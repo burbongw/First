@@ -104,11 +104,6 @@
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="63c96867-7210-4d88-aae0-98804daa8673">
     <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="19036a8c-0c98-4a4a-af39-ad7575cb9255">
-    <KeyNotFound>ReportAndStop</KeyNotFound>
-    <KeyDuplicate>ReportAndStop</KeyDuplicate>
-    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-  </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
     <Translation dwd:design-time-name="6f85735f-acfd-4f44-8a9f-279cd88f400e">
@@ -255,18 +250,7 @@
           <Translations>
             <Translation dwd:design-time-name="85a8a281-400a-4535-9e91-dd0df1080bc6">
               <Language>1045</Language>
-              <Caption>Klucz_sklepu</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="7e407e66-d149-4748-aafc-11378ba44138">
-          <ID>Store Description</ID>
-          <Name>Store Description</Name>
-          <SourceAttributeID>Store Description</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="f180dd9e-151f-415a-ac1d-918dcfc668de">
-              <Language>1045</Language>
-              <Caption>Opis</Caption>
+              <Caption>Key</Caption>
             </Translation>
           </Translations>
         </Level>
@@ -277,18 +261,7 @@
           <Translations>
             <Translation dwd:design-time-name="d227ba3b-1433-4958-bfc3-46a973a71100">
               <Language>1045</Language>
-              <Caption>Typ</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="7a9e9954-2780-4d20-a5fe-c6ee743b64b1">
-          <ID>Status</ID>
-          <Name>Status</Name>
-          <SourceAttributeID>Status</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="f88c1603-ceec-4a25-a3dd-c83142eb58fb">
-              <Language>1045</Language>
-              <Caption>Status</Caption>
+              <Caption>Type</Caption>
             </Translation>
           </Translations>
         </Level>
