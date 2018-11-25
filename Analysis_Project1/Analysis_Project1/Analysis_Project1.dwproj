@@ -35,6 +35,10 @@
       <Name>v Dim Store.dim</Name>
       <FullPath>v Dim Store.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Geography.dim</Name>
+      <FullPath>v Dim Geography.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
