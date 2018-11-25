@@ -36,12 +36,16 @@
       <FullPath>v Dim Store.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>v Dim Geography.dim</Name>
-      <FullPath>v Dim Geography.dim</FullPath>
+      <Name>v Dim Entity.dim</Name>
+      <FullPath>v Dim Entity.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>v Dim Store_Ent_Geo.dim</Name>
-      <FullPath>v Dim Store_Ent_Geo.dim</FullPath>
+      <Name>v Fact IT Machine.dim</Name>
+      <FullPath>v Fact IT Machine.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Ddim_v Fact IT Machine 1.dim</Name>
+      <FullPath>Ddim_v Fact IT Machine 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -64,7 +68,7 @@
           <ConfigurationSetting>
             <Id>Contoso Retail DW</Id>
             <Name>Contoso Retail DW</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=PK6-4;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=PK2-8;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
