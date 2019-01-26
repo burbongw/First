@@ -51,6 +51,10 @@
       <Name>v Dim Product.dim</Name>
       <FullPath>v Dim Product.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Currency.dim</Name>
+      <FullPath>v Dim Currency.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

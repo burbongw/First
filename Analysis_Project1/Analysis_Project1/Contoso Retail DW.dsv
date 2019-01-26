@@ -266,7 +266,7 @@
             <Name>FactITSLA</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="29" scale="100" pagebreakanchorx="-8424" pagebreakanchory="-2212" pagebreaksizex="21002" pagebreaksizey="29066" scrollleft="-13391" scrolltop="-1134" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="52388" y="27358" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="-8424" pagebreakanchory="-2212" pagebreaksizex="21002" pagebreaksizey="29066" scrollleft="-16881" scrolltop="-2606" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="52388" y="27358" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                   </font>
@@ -471,12 +471,23 @@
                     <point x="15705" y="11725" />
                   </connector>
                 </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCurrency" left="7421" top="10134" logicalid="29" controlid="21" masterid="0" hint1="0" hint2="0" width="3784" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000c80e000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vDimCurrency" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-13391</DiagramViewPortLeft>
-            <DiagramViewPortTop>-1134</DiagramViewPortTop>
+            <DiagramViewPortLeft>-16881</DiagramViewPortLeft>
+            <DiagramViewPortTop>-2606</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -894,7 +905,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimProductCategory" msprop:design-time-name="7ae11c68-77ae-4c88-8431-001e22f342bd" msprop:DbTableName="vDimProductCategory" msprop:FriendlyName="vDimProductCategory" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimProductCategory" msprop:design-time-name="7ae11c68-77ae-4c88-8431-001e22f342bd" msprop:FriendlyName="vDimProductCategory" msprop:DbSchemaName="olap" msprop:DbTableName="vDimProductCategory" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ProductCategoryKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="de14a9f0-f564-4d41-826b-d1382d666302" msprop:DbColumnName="ProductCategoryKey" msprop:FriendlyName="ProductCategoryKey" type="xs:int" />
@@ -924,7 +935,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimProductSubcategory" msprop:design-time-name="21ddaca7-97c9-4aa5-8ddc-8e275c417778" msprop:DbTableName="vDimProductSubcategory" msprop:FriendlyName="vDimProductSubcategory" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimProductSubcategory" msprop:design-time-name="21ddaca7-97c9-4aa5-8ddc-8e275c417778" msprop:FriendlyName="vDimProductSubcategory" msprop:DbSchemaName="olap" msprop:DbTableName="vDimProductSubcategory" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ProductSubcategoryKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ebf8cfbb-97c3-498e-a9f3-d7609dfc6825" msprop:DbColumnName="ProductSubcategoryKey" msprop:FriendlyName="ProductSubcategoryKey" type="xs:int" />
@@ -948,7 +959,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimProduct" msprop:design-time-name="1b809c9d-103b-46f5-b506-6392f62b6584" msprop:DbTableName="vDimProduct" msprop:FriendlyName="vDimProduct" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimProduct" msprop:design-time-name="1b809c9d-103b-46f5-b506-6392f62b6584" msprop:FriendlyName="vDimProduct" msprop:DbSchemaName="olap" msprop:DbTableName="vDimProduct" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ProductKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1be5afd5-9acd-442f-a7cf-78fd1f9568fd" msprop:DbColumnName="ProductKey" msprop:FriendlyName="ProductKey" type="xs:int" />
@@ -1019,6 +1030,20 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="olap_vDimCurrency" msprop:design-time-name="107864a0-5a66-4d8d-852f-854100891267" msprop:DbTableName="vDimCurrency" msprop:FriendlyName="vDimCurrency" msprop:DbSchemaName="olap" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CurrencyKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="389089a4-ad31-4472-a0a0-03b3f28cc7bf" msprop:DbColumnName="CurrencyKey" msprop:FriendlyName="CurrencyKey" type="xs:int" />
+                  <xs:element name="CurrencyDescription" msprop:design-time-name="ccbf8b13-433a-41a2-a143-4595236e2904" msprop:DbColumnName="CurrencyDescription" msprop:FriendlyName="CurrencyDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -1060,6 +1085,10 @@
         <xs:unique name="olap_vDimProduct_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
           <xs:selector xpath=".//olap_vDimProduct" />
           <xs:field xpath="ProductKey" />
+        </xs:unique>
+        <xs:unique name="olap_vDimCurrency_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//olap_vDimCurrency" />
+          <xs:field xpath="CurrencyKey" />
         </xs:unique>
       </xs:element>
       <xs:annotation>
