@@ -47,6 +47,10 @@
       <Name>Ddim_v Fact IT Machine 1.dim</Name>
       <FullPath>Ddim_v Fact IT Machine 1.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Product.dim</Name>
+      <FullPath>v Dim Product.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -68,7 +72,7 @@
           <ConfigurationSetting>
             <Id>Contoso Retail DW</Id>
             <Name>Contoso Retail DW</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=PK6-4;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-0NUGCCL;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
