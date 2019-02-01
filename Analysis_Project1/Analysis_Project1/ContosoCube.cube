@@ -1673,6 +1673,1097 @@
         </Calculation>
       </Calculations>
     </Perspective>
+    <Perspective dwd:design-time-name="61afff59-53ba-4368-bfd5-c77b39229b08">
+      <ID>Perspective 2</ID>
+      <Name>Prs_Sales</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="b8bbbfa1-06ba-4f13-aa45-003e31feeea2">
+          <CubeDimensionID>v Dim Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d54406f-df23-4a4d-840f-007118d9eee8">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a962ac64-5e00-42ed-9321-8264cdda975d">
+              <AttributeID>Store Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3a1e1fc5-6eb6-426c-a9ac-2684c4a2773e">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="100ec3ec-552a-4d27-9d4b-2012eb65cf2d">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f1fd797a-b3a7-4359-b583-7213b66437d2">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="86cdaef5-e863-4eb5-bb74-899e5aae6808">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="57f13864-c3a2-4c0e-b593-396e5b7ff0c1">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="c54c736d-2eba-4770-aad9-22511557428d">
+          <CubeDimensionID>v Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="72f6bc50-3b5a-4e18-8244-144e11c469d2">
+              <AttributeID>Datekey</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fe3a31ee-3314-46b6-a3d5-a9231e62a104">
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7d2dc270-79f0-4e78-909d-830dd2ae0e57">
+              <AttributeID>Calendar Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1e85755b-f065-494c-a043-086d438217dc">
+              <AttributeID>Calendar Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d4a8023b-9d68-4022-ba53-9576c17ed03f">
+              <AttributeID>Calendar Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cbc61822-e514-43cc-8f14-b2f12b8e978c">
+              <AttributeID>Fiscal Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ff7f4f17-8c0b-429d-9f32-684106bfa89c">
+              <AttributeID>Fiscal Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="327ac698-6051-494f-ac34-c0bdfa8d61d8">
+              <AttributeID>Fiscal Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a8ba0780-9e10-498b-8c95-28f86b8cea7a">
+              <AttributeID>Fiscal Month</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="bfb787a9-7414-450c-abb6-c2c8ac0ebba6">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="b658540f-a653-4099-801a-96c119b9bbb1">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="e761b029-16b3-4788-a4d8-1d6255248026">
+          <CubeDimensionID>Fact Inventory</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8e44472a-22c5-47f9-9292-30bf42911311">
+              <AttributeID>Inventory Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="403e8b45-e60c-496c-a829-1a5473c5b71f">
+              <AttributeID>On Hand Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ea94fed5-19c1-41ca-a37e-228de1e70e7b">
+              <AttributeID>On Order Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ad3cb9ab-23cf-4320-a67e-7ba64a30ba23">
+              <AttributeID>Safety Stock Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8bb13317-4eeb-4eb5-8ac6-406433791d56">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="2b0c89b3-57e6-4ae9-8e4f-299d32d24d16">
+          <CubeDimensionID>Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e722f649-4c9c-421f-8c91-32a2d0e48e4a">
+              <AttributeID>Sales Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a3163cd2-cfb9-44ad-aa79-b03ab8362165">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="685bb345-b594-4ba7-a749-7c03bfc91851">
+              <AttributeID>Channel Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="58905186-5116-42c1-90ed-2d1e1e419a79">
+              <AttributeID>Product Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1786ec60-0fd1-4b02-8ef3-82dcc629b889">
+              <AttributeID>Promotion Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1ec82c79-f606-4245-90fb-e9b6ed839736">
+              <AttributeID>Currency Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="37b21132-351f-4493-a7af-0d5cf67789ea">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="445606f7-093d-413b-ae4e-c1d9a0ae9660">
+              <AttributeID>Unit Price</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="08d16e1c-b934-461e-b765-85b25b90fa9b">
+              <AttributeID>Sales Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="da4a7bd3-bd77-438e-ad0b-df3c847695e5">
+              <AttributeID>Return Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a3dea9a3-eba0-436e-9e14-c53a2f67f87b">
+              <AttributeID>Return Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1678c6f3-81c6-418a-91ac-6069295d1601">
+              <AttributeID>Discount Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cf67c29a-c0fa-4bee-aa2f-f4d521b56889">
+              <AttributeID>Discount Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5d4076b8-2d94-4cc8-b7c0-28173621ba41">
+              <AttributeID>Total Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3aaf635d-0a0c-4f46-be1d-382a6dfd05f7">
+              <AttributeID>Sales Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="44c9ef1b-370d-44dc-a017-5d6d39199132">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="74e0bb6e-1b2f-4828-bff9-25e4659423e0">
+              <AttributeID>Store Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2717efbb-bb30-42d9-8b28-82b6ce89ae64">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2e927407-f981-4c5b-981f-815a2ccde045">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="01772024-2857-44b4-9e17-27cb356dfce9">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b96790b4-c883-4238-85fa-e06bb6e210dc">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="769619de-66dc-439e-b6f4-53c0237c4968">
+              <AttributeID>Entity Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b0313975-6bb0-47ec-95bf-c6ff056a1159">
+              <AttributeID>Entity Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ac6c5b37-6dc0-4531-8d3c-b6ae9aed7c02">
+              <AttributeID>Entity Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d13d3ba7-331b-4c34-a98b-086621a68eae">
+              <AttributeID>Entity Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="936186c0-a040-47cf-9a06-afad430a314b">
+          <CubeDimensionID>Fact Online Sales</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="589ba6c3-01a0-4159-80b5-5ca1d3fee0f8">
+              <AttributeID>Online Sales Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="134bd43a-a736-47a0-ba4b-4bfc6ab74feb">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e8ac305a-bb75-4e1d-87da-cedabdb600d9">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a20cd7c5-0238-440a-b694-b457160ef8e6">
+              <AttributeID>Product Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9e34ed6c-2d2f-42db-87a4-84f0dda37007">
+              <AttributeID>Promotion Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ea6b009d-852e-44ca-a551-1f838d1b44e2">
+              <AttributeID>Currency Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="11d0cd4e-8859-4320-8a47-d572d4b0026e">
+              <AttributeID>Customer Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fde1ace9-2513-4c33-a17b-6f0a92b62a52">
+              <AttributeID>Sales Order Number</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a3e9ac38-1696-4550-afca-62b9430fd850">
+              <AttributeID>Sales Order Line Number</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="608d21cc-5ec2-4fee-a429-7798f8bde725">
+              <AttributeID>Sales Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8dc30b9e-70d6-49fe-83c3-71f15826e4af">
+              <AttributeID>Sales Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="92225f97-fb0e-4ffd-9be3-9384f0d1bc68">
+              <AttributeID>Return Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9e8475c1-7492-4565-bd5e-ff9128eb7a26">
+              <AttributeID>Return Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a1b52ea7-f00f-4e5a-b541-f50d95485168">
+              <AttributeID>Discount Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="224bbe9e-7239-4123-9926-3862d5d332ac">
+              <AttributeID>Discount Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="89c51387-e652-4e3f-a717-10664f0cc860">
+              <AttributeID>Total Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="707dc8a0-3533-4e28-afb1-20d8a31db4ae">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5d885746-c294-4c80-8b13-fe641e5f6a91">
+              <AttributeID>Unit Price</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="eb55ccb5-0884-48a4-bc69-d5d9f0b8d6ff">
+          <CubeDimensionID>Fact Sales</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3a0b8ad8-e56e-47bf-9db2-34f7471c3551">
+              <AttributeID>Sales Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="51fa1862-0bd0-4854-9a6c-87db08308497">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d3eadc29-4a96-4693-8ef0-2c96e531fd37">
+              <AttributeID>Channel Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="585ad102-6411-4d19-96a4-25cbd24adc6d">
+              <AttributeID>Product Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="153a7b76-7254-41e0-8268-641b94527e40">
+              <AttributeID>Promotion Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cd081cde-c446-4d33-910f-9cc45f426a4d">
+              <AttributeID>Currency Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d5fa3122-ea0d-4c2a-9f13-88f7d93158ea">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d0947b57-9fde-477c-b26e-da9d59f6eb91">
+              <AttributeID>Unit Price</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2e67a47e-09ce-4a4c-a2cd-1f0f1a60dd3e">
+              <AttributeID>Sales Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b2ebd22d-dd6d-4b38-aad9-cd4df26624f6">
+              <AttributeID>Return Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8e332daf-0ac6-44c5-aa4c-cce2c69245a4">
+              <AttributeID>Return Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e9463cbf-f9b1-421c-99df-28d653fe60d6">
+              <AttributeID>Discount Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d90e62cb-e844-4fca-b5b3-52d2d45a4aa9">
+              <AttributeID>Discount Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="42b89a73-4e16-4461-80ae-712fec709adb">
+              <AttributeID>Total Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e4a00a4b-4d2c-4af2-9761-c0c384f8a13e">
+              <AttributeID>Sales Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="610f4044-e99a-4454-afa4-7adf4c3b9fdd">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2031dfc4-eb66-4a7e-ae3d-9adeb88f0ac0">
+              <AttributeID>Store Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="bb8fcc61-eb6d-4055-9948-5985c0693779">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3f11ef26-2099-430c-a1e5-48fc607e275a">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="258c49e0-a497-4e72-b018-2428e990694c">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a25d137f-c125-4c5e-aeb8-5e883e92db6a">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b6ed74d4-f081-45e2-8cc0-9c25ccec4785">
+              <AttributeID>Entity Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="93f3129e-844c-4e7e-8ea0-f1e1db6176e8">
+              <AttributeID>Entity Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1daab4e5-6a1d-4a3d-8c1d-6aeaf77382a6">
+              <AttributeID>Entity Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d5a6df52-8c03-466d-8856-e4ca641ef7e7">
+              <AttributeID>Entity Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="a87073ab-59b7-4d7e-8c45-16d4089408e1">
+          <CubeDimensionID>v Dim Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="282fefe7-8adf-43a9-aeed-c38f99848464">
+              <AttributeID>Datekey</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3fd372b9-8b65-420b-b73b-b4443cbd8b21">
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7f063b4b-db65-48f6-918b-5487d2e2c3c1">
+              <AttributeID>Calendar Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3e8926e6-c93a-40e1-94f0-0048f2493b3e">
+              <AttributeID>Calendar Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cf8acd95-132d-4c48-9b07-c4e0ac6c3cf2">
+              <AttributeID>Calendar Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="31bf8107-5b9a-4a04-a3bc-fc40ab202c9f">
+              <AttributeID>Fiscal Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5fd2837a-b614-45a3-b507-a251421b7e21">
+              <AttributeID>Fiscal Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dae92f38-f654-4641-afa9-6178518a0345">
+              <AttributeID>Fiscal Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4886efed-e928-45bf-9cef-92d5355a4496">
+              <AttributeID>Fiscal Month</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="d563f092-c0f3-45bf-8c09-21b5235df92f">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="477da849-d80c-4167-9b1e-7bd94d23ef37">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="15c033f1-99a6-4d32-87ba-e1f1702f41f7">
+          <MeasureGroupID>Fact Sales</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="b417dabd-e90b-4fdb-87f7-8dbb5c6d23fc">
+              <MeasureID>Sales Quantity</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="f087a75c-23f6-4ea7-a178-d3fed5fd4cca">
+              <MeasureID>Return Quantity</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="998fefa2-ebe2-416a-aa1c-164ef67a3711">
+              <MeasureID>Return Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="bb327378-28cb-45d6-9d54-32c03528f219">
+              <MeasureID>Discount Quantity</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="8845409b-94fb-4488-8825-07c1bd00cf6f">
+              <MeasureID>Discount Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="49c37e2b-19c3-4115-8221-85b60e32ba3d">
+              <MeasureID>Total Cost</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="f066ad9d-3e41-4ad3-9a17-457404c6331a">
+              <MeasureID>Sales Amount</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="8cf034c8-3f36-40f2-bd96-db4b11d87ad1">
+          <MeasureGroupID>Fact Online Sales</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="57029eb7-e59d-4c4f-9ab9-a028ecd336f2">
+              <MeasureID>Sales Quantity - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b6e33694-116c-4a7a-8fa4-e943cee19e71">
+              <MeasureID>Sales Amount - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="6ea679a3-dac8-41f8-9a9b-318e5ba93ff7">
+              <MeasureID>Return Quantity - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="81cbdc43-14bf-441b-bc6f-fbe2846f23c2">
+              <MeasureID>Return Amount - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="ab1d070f-2244-4edb-aeb0-ebd04656df4b">
+              <MeasureID>Discount Quantity - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="f403df04-8113-4a6d-98bb-af79daa993b2">
+              <MeasureID>Discount Amount - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="10ccbe45-e573-4c7a-af1c-3f551d10cc57">
+              <MeasureID>Total Cost - Fact Online Sales</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="dbafd8d0-260a-48d8-a8d4-b06c7c60506e">
+          <Name>[Measures].Max_minus_Min</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="ac7afaca-ae0b-4134-9349-81b796b15124">
+          <Name>[Measures].Koszt_sredni</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="d680e088-a311-4279-be25-8eb4372a8ecb">
+          <Name>[Measures].[Inventory_On_Hand_Quantity_Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="dcbaba76-54cf-437f-882a-ea5688f1108c">
+          <Name>[Measures].[Inventory On Order Quantity Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="9d885f73-1338-49ce-8596-03d863126fab">
+          <Name>[Measures].[Inventory Unit Cost Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="13b7a507-fe3b-45b2-a93d-99f67ee6502c">
+          <Name>[Measures].[Inventory Safety Stock Quantity Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
+    </Perspective>
+    <Perspective dwd:design-time-name="f7a9302b-945e-4e2b-be99-a2aca13d606c">
+      <ID>Perspective 3</ID>
+      <Name>Perspective</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="51d54f3b-9681-49cd-9575-2ffa0cb38f09">
+          <CubeDimensionID>v Dim Outage</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="db21cf28-e77e-4e11-bea2-80ef3305ef7d">
+              <AttributeID>Outage Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9535ca23-c293-413f-996c-5e8ccd905b01">
+              <AttributeID>Outage Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0895050b-78b9-492a-b165-b940e2bf0ebc">
+              <AttributeID>Outage Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b63047a1-cc97-4413-af33-c4992d7a5bd8">
+              <AttributeID>Outage Type Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="21a200e6-bd1d-4f89-8985-7c28dcf0658f">
+              <AttributeID>Outage Sub Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2283df09-f124-4767-960d-252c19531eef">
+              <AttributeID>Outage Sub Type Description</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="c8a52739-1995-43bb-84e3-e830edc73976">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="c5745fd5-adc9-410a-bb50-e1d843ad34f4">
+          <CubeDimensionID>v Dim Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5541cbe4-d414-47f1-9410-3e0b6bdb4e70">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="df7f157c-7de0-4a98-b24b-c2fdc5021ea0">
+              <AttributeID>Store Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c57ea1f9-a0a5-4f0a-986b-4e8d5786adde">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dde71a46-24f0-4b19-a512-6205faa000e8">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7c3dbf0a-8e54-4782-a6be-b828ddaf5898">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="86c83569-fc12-409b-939a-9600129d7d33">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="3000c1cf-e436-4a85-a60a-f6138c49121c">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="87f16ab9-7675-4225-99cc-8624ab17395f">
+          <CubeDimensionID>v Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="aae9d596-3db3-40f5-97b9-5c526d508cb9">
+              <AttributeID>Datekey</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f7c00b4c-fe31-4d8e-8c75-bb312a3d6bc7">
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="bda0a224-86ce-437e-8c96-4344eb0bbfa3">
+              <AttributeID>Calendar Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="580b2cf4-19f0-4688-82b3-4ff09fa1fc37">
+              <AttributeID>Calendar Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="eb058997-fe52-4f53-95c5-aaa7b157a006">
+              <AttributeID>Calendar Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="51b6001e-0c46-4903-974e-6dc07033b4ab">
+              <AttributeID>Fiscal Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4faee3e1-804d-45fb-b973-58c5d5cb0a6a">
+              <AttributeID>Fiscal Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="77b41afd-cfa4-4c09-833f-3362f7fd9536">
+              <AttributeID>Fiscal Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="603d995d-f82b-4b59-965b-d707d1cfaedd">
+              <AttributeID>Fiscal Month</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="2441e20a-c648-47e4-983a-6d4f2d46e11e">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="cd508949-639d-479e-922d-5cb9748a50a8">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="a40c5d97-ebd3-446f-a5c8-345dcbf9286c">
+          <CubeDimensionID>DimMachine</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4b04bc38-1a0a-4fb5-a4d8-c1c4cb8772ae">
+              <AttributeID>Machine Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="56498d4f-681c-4c83-ba17-3ca95050641b">
+              <AttributeID>Machine Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d7a4c95d-7ffa-4ed0-8ef7-862413c716d0">
+              <AttributeID>Machine Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="be8efb4e-2045-46cc-bbac-bd088fb43ff4">
+              <AttributeID>Machine Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0996ee5f-ca34-47e5-9430-e9e22b978738">
+              <AttributeID>Vendor Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9bf355b8-a97c-4c9b-adb4-3a600a4d9f21">
+              <AttributeID>Machine OS</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="490a1cd1-fb31-4a84-8586-a1ba2c7bcc27">
+              <AttributeID>Machine Source</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="20aea9bb-c2e7-4533-9fe7-6c6bea5deb5c">
+              <AttributeID>Machine Hardware</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5e7508eb-d987-4933-beac-384539cf94f8">
+              <AttributeID>Machine Software</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="723e246d-c440-45bd-8f12-d5ccfd288470">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="14349758-f141-439b-96cf-723aa9eb8442">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="0c8094d2-1843-4f5b-8b68-067ed91ee700">
+          <CubeDimensionID>v Dim Entity</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="942aacbb-94ee-41fb-9573-6bbd26652f69">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="70cd94eb-e6de-400f-acf8-5c96690799c0">
+              <AttributeID>Parent Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="18a7bde3-134e-4755-adae-2eb3c250456d">
+              <AttributeID>Entity Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="173617e8-ea7d-470f-bd33-e630035d2a4a">
+              <AttributeID>Entity Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="478ef487-c5e9-4da2-b28b-e5116bb0c7fc">
+              <AttributeID>Entity Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="06e648d7-a9df-4474-814c-dde5985abb44">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="b86eca00-4b2b-45ff-b383-4a083a3d2a8a">
+          <CubeDimensionID>Ddim_v Fact IT Machine 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2e1a32f9-5743-4524-a6d6-6aa5a9a2e5ed">
+              <AttributeID>IT Machinekey</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="093a6016-d21f-4c18-b7f8-4012dda7442f">
+              <AttributeID>Cost Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="98adb403-01ae-4dec-b3f0-a75c80e80002">
+          <CubeDimensionID>Fact Inventory</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0ffafe87-2c6a-4bce-a2e1-41b5f9265891">
+              <AttributeID>Inventory Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a9ad3fed-5bd2-418b-abed-28d0f7daabca">
+              <AttributeID>On Hand Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="83166f63-f11b-428d-a3a2-af8101715724">
+              <AttributeID>On Order Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="16d209a3-06ac-4301-a8ce-6e9e579f8320">
+              <AttributeID>Safety Stock Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9fa4af3d-fae4-42f0-90d5-4aba7c3fae38">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="f371eb88-b5fe-4bc8-9d64-bdb8570712dd">
+          <CubeDimensionID>Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f451a370-aeda-44ff-8726-a5f71ac45371">
+              <AttributeID>Sales Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="816af770-e444-46f4-b08a-dd1ff83d24ef">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cab78c17-6e64-4aac-b198-0ce92281e580">
+              <AttributeID>Channel Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="728d6581-605f-4d66-b8a3-4d6c5b4687a7">
+              <AttributeID>Product Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d91f0e00-36e0-4374-a713-49ded424a7c1">
+              <AttributeID>Promotion Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a0da7717-b803-4469-a8cb-4f28a2247d31">
+              <AttributeID>Currency Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fe078d52-1552-47ac-be42-e55c2fb1949a">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="246fa911-514a-4152-9441-f954ef6a7778">
+              <AttributeID>Unit Price</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8aa82168-3926-490f-9f7f-916db6031688">
+              <AttributeID>Sales Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b197271f-7e81-4e77-8fd8-ca848282f2d1">
+              <AttributeID>Return Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f99e281d-cc06-4cbe-a574-4ae561f090a2">
+              <AttributeID>Return Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d9cd039c-9ea6-4a77-b7a0-b0094daf6fd0">
+              <AttributeID>Discount Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="6634f718-4fc9-4daa-a23e-63af1d4a6038">
+              <AttributeID>Discount Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8000df5f-2227-4dae-b2d5-4b603a4bd4f2">
+              <AttributeID>Total Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ee183692-8e11-4282-a81d-8ca64bf35bf9">
+              <AttributeID>Sales Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="21492aa2-9e74-4e10-8683-dc9b652dddff">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a127b3c9-e536-4dca-9f87-1edcfb37b2b0">
+              <AttributeID>Store Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fc0bcab9-3242-41f3-a4d3-2c28db4a484f">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="108f7d8b-8bd4-4201-aeb6-fa88059e8288">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c872f333-cebd-4c7e-864c-bb88937a56e1">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="38f61a88-896f-456d-84e3-375782ca68d3">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="88c539c8-9d8d-4525-8ad2-a959cacfb840">
+              <AttributeID>Entity Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="424482b2-4340-4936-a106-2c6acee2ee6e">
+              <AttributeID>Entity Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1a86fc5a-61fc-42c9-b237-7871a74a52b0">
+              <AttributeID>Entity Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ba751377-7c67-4fd1-a22d-34365f98ca9b">
+              <AttributeID>Entity Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="ad85a875-d710-4b1c-ac6f-8d2587319166">
+          <CubeDimensionID>v Dim Store - Entity</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0eac7573-f9dd-441d-bff9-ad7dae28cb3c">
+              <AttributeID>Sales Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b765f2df-2e59-473b-8c78-55629d4f20bf">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="65317d92-29cb-4eef-84f3-d6c8d213f9ae">
+              <AttributeID>Channel Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="16050706-0b8e-4ca9-bb8e-517019de7d57">
+              <AttributeID>Product Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="bd21f7da-96d2-448a-9300-030df4619c47">
+              <AttributeID>Promotion Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="47e605a0-6c33-4522-8610-6bb7fb700a0a">
+              <AttributeID>Currency Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="560d2259-2118-44e4-9ec8-247e425bcc94">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d9fa3ae5-762f-426c-ac86-e5d30a1d97e3">
+              <AttributeID>Unit Price</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cd8ed7f7-b0e7-4cf9-978d-d03c2c9c3728">
+              <AttributeID>Sales Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="161e2895-616e-4557-b250-782b2893451e">
+              <AttributeID>Return Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7264a554-135f-4629-838e-0605c5e1426b">
+              <AttributeID>Return Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7922bc72-b82a-45df-ac68-1605c9170755">
+              <AttributeID>Discount Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ae91865a-5e56-4818-9a7b-c58c415612b6">
+              <AttributeID>Discount Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d2479137-be43-4a17-b055-73510df9941a">
+              <AttributeID>Total Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b75e2e18-5dd8-4d88-9184-aa548bbb762e">
+              <AttributeID>Sales Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e811f9bb-cbc9-4e36-9d74-2470a551473b">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="92ec02cb-1ce8-4ad1-80e7-d935684a3902">
+              <AttributeID>Store Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4f780f41-d47c-44c2-a376-e77dbd7c4625">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ad6aede9-d335-49bd-adf6-322b49d69f21">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1d3d91bc-bf6c-4126-9401-45b5d907f694">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b6940fe3-df9c-4af4-b4c8-37bea14a5d45">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="eb6a1f54-7607-4daf-8be7-1f6ed8db0746">
+              <AttributeID>Entity Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="18990bd3-3a40-4eb8-89ef-0634fe8055fe">
+              <AttributeID>Entity Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0c44ab1b-ce66-4f09-ad46-b424456cf62b">
+              <AttributeID>Entity Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b6f3cadb-a5e1-4f21-b0e5-848b533243c1">
+              <AttributeID>Entity Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="941d4adf-0055-42fe-b9b4-5a9882672bdb">
+          <CubeDimensionID>Fact Online Sales</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f5493564-6b53-46dc-9993-76067e475b0a">
+              <AttributeID>Online Sales Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="835dba31-d463-42b1-b811-eafb5130fd49">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="28934da7-a626-4e25-ba50-c356b9ef8823">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="491e4056-5adb-4b13-a1c9-352cf585c76f">
+              <AttributeID>Product Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="789a8b5f-4f72-4e46-88fe-ccec27df1d01">
+              <AttributeID>Promotion Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="cc1bb8e8-aebb-4c89-be5b-052ad22e3ed4">
+              <AttributeID>Currency Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="650f7eea-41ff-4341-91dc-7f63e268e81f">
+              <AttributeID>Customer Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="21135e45-6fad-408b-8f56-757fed94a219">
+              <AttributeID>Sales Order Number</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="af944cb7-2743-419c-8a77-e5db8c7a40e7">
+              <AttributeID>Sales Order Line Number</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4c325ec0-ca1d-4043-8ad4-37ea2958fbc0">
+              <AttributeID>Sales Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="272542fd-3425-4f88-b0bf-32090e3f4101">
+              <AttributeID>Sales Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3a82427c-41ee-4f63-ac00-7d5248087ef6">
+              <AttributeID>Return Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="235f8363-e38d-46ee-97bb-2e6056e44958">
+              <AttributeID>Return Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="00209d38-2f7b-4764-8805-d40aca2791d5">
+              <AttributeID>Discount Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="49a44ea9-2646-437e-b657-4dc53f63003a">
+              <AttributeID>Discount Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="25d4ce65-2eaa-4c5e-b0dd-38db3570d336">
+              <AttributeID>Total Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="6f4d10ec-fe34-4ff5-960a-3a9ca9fb7b9f">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="836fc6c5-7e93-46c9-85ae-82d14595078c">
+              <AttributeID>Unit Price</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="a1e0ce68-02ca-4241-84d9-e317badb1190">
+          <CubeDimensionID>Fact Sales</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5e90ebe9-f24c-4266-af82-7472627760f0">
+              <AttributeID>Sales Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fe7895a1-7fc4-4fc5-ac7b-b5a6c47f8a23">
+              <AttributeID>Date Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c02088f1-e6f4-4639-8a04-47f87778e29d">
+              <AttributeID>Channel Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="556466fb-3993-4329-b2e1-29e460c497d5">
+              <AttributeID>Product Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0a840718-5ab2-4b9f-a951-a4e45331e9a3">
+              <AttributeID>Promotion Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1e02699e-3e25-4091-a5ce-d0221c29a2d8">
+              <AttributeID>Currency Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e1890a68-30f9-4f64-af44-85f08ea69861">
+              <AttributeID>Unit Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e90f1078-131b-4480-ad6a-20e495d7c937">
+              <AttributeID>Unit Price</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7426c89a-55aa-4d78-a94a-e9b809b755da">
+              <AttributeID>Sales Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="549ff2b8-9cd3-4d8a-8ee3-42af19d438d4">
+              <AttributeID>Return Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0dfe39e9-930e-422e-8a17-b19977e17d24">
+              <AttributeID>Return Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="83f10290-8313-4c61-8f1d-275ee0b42fa6">
+              <AttributeID>Discount Quantity</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1436804e-a359-4638-8f89-667f39c683c2">
+              <AttributeID>Discount Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d4e9ef82-4a6f-495e-b04d-807986a5751a">
+              <AttributeID>Total Cost</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="86bda77a-2514-4b8a-8746-e1aebff02195">
+              <AttributeID>Sales Amount</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a1e44e65-a40e-4823-9036-15ff78389482">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1defd5d8-19fa-4202-89cc-e77eca781cec">
+              <AttributeID>Store Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="31921760-cb27-411a-97e0-1f6e9da7c87e">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1c049519-a9bc-4ccd-90c4-e6a80219f128">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5635b995-1ad3-4757-9f77-4ea929b0cd6e">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9b6dacf0-b81a-4f14-8069-243bfeee9273">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="822fcb36-d923-4d0b-925d-4e78272de637">
+              <AttributeID>Entity Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="331b0714-70a9-45e2-93b3-3b59673b8c40">
+              <AttributeID>Entity Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="361a8104-ae2a-4950-8ab6-7a8d5a84ed2b">
+              <AttributeID>Entity Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2fed4b8c-13f7-4781-9b01-cc34d6d7f766">
+              <AttributeID>Entity Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="479a6bc3-836e-4d32-8333-72ae06d0c03f">
+          <CubeDimensionID>v Dim Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d58f4d63-fcb0-4e9e-8f14-d4f4e770bc09">
+              <AttributeID>Datekey</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c0011a36-84c5-4d85-8d66-bbcfdde7404d">
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="832a962f-7a61-47e7-b566-eb5ea9effbe1">
+              <AttributeID>Calendar Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b61d4c98-0f88-4c2d-bc23-98bc9d2a21d3">
+              <AttributeID>Calendar Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="baaefabb-2a00-41cc-b679-b9a16aab96a9">
+              <AttributeID>Calendar Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="811e108d-3f4b-478d-8898-f1df7f8b8fcc">
+              <AttributeID>Fiscal Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c94023c4-b8f4-4f2d-9a64-c20c69dd42ac">
+              <AttributeID>Fiscal Half Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="baf6a901-5b09-4988-8f19-b85963e377ed">
+              <AttributeID>Fiscal Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b8c994a3-06d8-45ea-a6ef-318fc8d3db77">
+              <AttributeID>Fiscal Month</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="33b06dee-70a4-4fe5-a79b-f078910165ca">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy dwd:design-time-name="4e5a7a5b-fd82-4e72-9c00-63fd51ca9f95">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="897c0114-3de1-43be-b587-97ba2d814c33">
+          <MeasureGroupID>v Fact ITSLA</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="172ae1a5-210f-40af-a307-7e88ee276415">
+              <MeasureID>Down Time</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="1650c30f-50c6-4370-a73e-5ba721b0e151">
+              <MeasureID>v Fact ITSLA Count</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="590816cb-7851-48c9-9d1f-3530068acb0a">
+              <MeasureID>Down Time Hrs</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="603a5850-1320-4e43-9380-88af3a84a0db">
+          <MeasureGroupID>v Fact IT Machine</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="1b0a6a82-a9cb-4e43-8a50-0d9e031b8c22">
+              <MeasureID>Cost Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="6e7d73ca-4ddc-4dda-a792-c38c2f7fa1fe">
+              <MeasureID>v Fact IT Machine Count</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="39da3a5e-0506-42d1-8ce4-2bbae0e41093">
+              <MeasureID>Minimum Cost Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b094e0c8-c9c7-45ff-8d39-ccf40d081b4f">
+              <MeasureID>Maximum Cost Amount</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="09c384d8-3515-4e46-a512-34e9f9c4e89a">
+          <MeasureGroupID>Fact Inventory</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="26e5b8ed-a6d4-4fc6-b9c2-1e83e9ce800e">
+              <MeasureID>Fact Inventory Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="22bea3bd-cc12-4b4d-8a32-23ef94cd524c">
+          <MeasureGroupID>Fact Sales</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="7b65873c-4e9b-43a0-975e-e28c8634cae1">
+              <MeasureID>Sales Quantity</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="a801227c-1feb-4bb2-a27f-45dfda7eee39">
+              <MeasureID>Return Quantity</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="d6c4bd02-5f55-4a6a-b00c-dca4e8966db3">
+              <MeasureID>Return Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="22250bc0-0be8-4004-8562-492fbc4a1240">
+              <MeasureID>Discount Quantity</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="6cb737a9-e1db-4415-9e40-04dfc4e24c77">
+              <MeasureID>Discount Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="7b1d07ee-c8e0-4488-9201-8764ef6eb72c">
+              <MeasureID>Total Cost</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="6c7c603d-c2b1-4026-a218-2886ce81f2b4">
+              <MeasureID>Sales Amount</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="10663c17-944f-4c02-a0be-7ce28a823509">
+          <MeasureGroupID>Fact Online Sales</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="e67d5560-ba02-41be-8fc2-584ee07f8306">
+              <MeasureID>Sales Quantity - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="e87bb4c3-70a4-4677-849c-d4ff27e037b1">
+              <MeasureID>Sales Amount - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="4d8efb72-8bbb-40d6-af83-3c44094da686">
+              <MeasureID>Return Quantity - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="844f9424-cf2e-4a5f-9cf9-aba9f7e71d7a">
+              <MeasureID>Return Amount - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="aa8d9609-464c-43d9-9c79-ee2e3c407046">
+              <MeasureID>Discount Quantity - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="0c0ae63e-7ca0-45ce-931c-5adceacc8ced">
+              <MeasureID>Discount Amount - Fact Online Sales</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="33049d3c-9a3c-4a76-893e-742dd7268630">
+              <MeasureID>Total Cost - Fact Online Sales</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="3ff35689-f5d4-4976-8d04-00e8f41630dd">
+          <Name>[Measures].Max_minus_Min</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="9d96b721-f265-4b25-a3b3-4a07fc997c53">
+          <Name>[Measures].Koszt_sredni</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="ab0bd870-e077-4312-906e-23efe68dacd2">
+          <Name>[Measures].[Inventory_On_Hand_Quantity_Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="7aa39dcd-9d86-4da2-ad71-814c63468f4e">
+          <Name>[Measures].[Inventory On Order Quantity Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="bf6eca60-1f2e-4d66-ae2d-df0bc8ae2267">
+          <Name>[Measures].[Inventory Unit Cost Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="ae456d70-5516-4014-830f-87a1dde9fd8b">
+          <Name>[Measures].[Inventory Safety Stock Quantity Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
+    </Perspective>
   </Perspectives>
   <Visible>false</Visible>
   <MeasureGroups>
