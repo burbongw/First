@@ -59,6 +59,14 @@
       <Name>Fact Inventory.dim</Name>
       <FullPath>Fact Inventory.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Sales.dim</Name>
+      <FullPath>Fact Sales.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Online Sales.dim</Name>
+      <FullPath>Fact Online Sales.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
